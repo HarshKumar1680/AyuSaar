@@ -1,0 +1,1142 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "hi",
+                "Hii",
+                "Hey",
+                "hi there",
+                "Hello",
+                "Good day",
+                "How are you",
+                "Is anyone there?",
+                "Good morning",
+                "Good afternoon",
+                "Good evening"
+            ],
+            "responses": [
+                "Hello! I'm QSAARBOT, your Ayurvedic wellness assistant. How can I help you today?",
+                "Hi there! I'm here to help with your health concerns. What's troubling you?",
+                "Hello! I'm your Ayurvedic wellness guide. How are you feeling today?",
+                "Hi! I'm QSAARBOT. What health concerns would you like to discuss?",
+                "Hello! I'm here to provide Ayurvedic remedies. How can I assist you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "by",
+                "byy",
+                "Take care",
+                "See you",
+                "Good night"
+            ],
+            "responses": [
+                "Take care! Feel free to return if you need more Ayurvedic advice.",
+                "Goodbye! Remember to take care of your health.",
+                "Bye! Wishing you good health and wellness.",
+                "Take care! Don't hesitate to return for more Ayurvedic guidance."
+            ]
+        },
+        {
+            "tag": "talk",
+            "patterns": [
+                "Hi, How is it going?",
+                "How do you do?",
+                "Nice to meet you."
+            ],
+            "response": [
+                "The HCareBot is working great! How are you feeling today?",
+                "Thank you. How can i assist you? How are you feeling today?",
+                "I'm doing well. How are you feeling today?"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!",
+                "thnx",
+                "Thanks a lot",
+                "Thank you so much",
+                "I appreciate it"
+            ],
+            "responses": [
+                "You're welcome! Feel free to ask if you need more Ayurvedic advice.",
+                "Happy to help! Take care of your health.",
+                "My pleasure! Let me know if you need anything else.",
+                "You're welcome! Wishing you good health."
+            ]
+        },
+        {
+            "tag": "interest",
+            "patterns": [
+                "What are your interests"
+            ],
+            "responses": [
+                " I am interested in helping you in Home Made Remedies for your health!"
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                " What is your location"
+            ],
+            "responses": [
+                "I am offline. So I am present at the same location as you."
+            ]
+        },
+        {
+            "tag": "where",
+            "patterns": [
+                "Where are you from"
+            ],
+            "responses": [
+                "We are located at Bharati Vidyapeeth Deemed University Department of Engineering and Technology, Navi Mumbai as of now."
+            ]
+        },
+        {
+            "tag": "father",
+            "patterns": [
+                " Who is your father"
+            ],
+            "responses": [
+                "Ravi & his healthcare counselling team created me."
+            ]
+        },
+        {
+            "tag": "mother",
+            "patterns": [
+                "Who is your mother"
+            ],
+            "responses": [
+                "Ravi & his healthcare counselling team created me."
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                " What is your age"
+            ],
+            "responses": [
+                "I was created in March 2023."
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What is your name",
+                "What's your name",
+                "Who are you",
+                "What should I call you",
+                "Your name",
+                "Tell me your name",
+                "What is your nme",
+                "what is your nme"
+            ],
+            "responses": [
+                "I'm QSAARBOT, your Ayurvedic wellness assistant.",
+                "My name is QSAARBOT. I'm here to help with your health concerns.",
+                "I'm QSAARBOT, your guide to Ayurvedic remedies and wellness.",
+                "You can call me QSAARBOT. I'm your Ayurvedic health assistant."
+            ]
+        },
+        {
+            "tag": "Fine",
+            "patterns": [
+                "i am feeling fine",
+                "i feel fine",
+                "i feel great",
+                "fine",
+                "i feel awesome",
+                "i feel good",
+                "i am feeling good"
+            ],
+            "responses": [
+                "Good to know. How may i assist you then?"
+            ]
+        },
+        {
+            "tag": "health",
+            "patterns": [
+                "I feel sick",
+                "I have weakness in my body.",
+                "I am feeling weak",
+                "i am sick",
+                "i am not well",
+                "i am not feeling well"
+            ],
+            "responses": [
+                "Okay. Can you tell me what's wrong? What are your symptoms?"
+            ]
+        },
+        {
+            "tag": "cold",
+            "patterns": [
+                "cold",
+                "colds",
+                "common cold",
+                "i have cold",
+                "i'm having cold",
+                "suffering from cold",
+                "got cold",
+                "having cold",
+                "cold symptoms",
+                "i feel cold",
+                "my nose is running",
+                "i'm sneezing",
+                "stuffy nose",
+                "nasal congestion",
+                "runny nose",
+                "blocked nose",
+                "congested nose",
+                "stuffed nose",
+                "clogged nose",
+                "nasal blockage",
+                "nasal stuffiness",
+                "nasal clogging",
+                "nasal obstruction",
+                "nasal discharge",
+                "nasal drip",
+                "post nasal drip",
+                "rhinorrhea",
+                "rhinitis",
+                "sinus",
+                "sinuses",
+                "sinusitis",
+                "sinus infection",
+                "sinus problem",
+                "sinus issues",
+                "sinus condition",
+                "sinus disease",
+                "sinus disorder",
+                "sinus inflammation",
+                "sinus irritation",
+                "sinus pain",
+                "sinus pressure",
+                "sinus headache",
+                "sinus congestion",
+                "sinus blockage",
+                "sinus obstruction",
+                "sinus discharge",
+                "sinus drip",
+                "sinus drainage",
+                "sinus mucus",
+                "sinus phlegm",
+                "sinus catarrh",
+                "sinus cold",
+                "sinus flu",
+                "sinus infection",
+                "sinus virus",
+                "sinus bacteria",
+                "sinus germ",
+                "sinus bug",
+                "sinus illness",
+                "sinus sickness",
+                "sinus disease",
+                "sinus disorder",
+                "sinus condition",
+                "sinus problem",
+                "sinus issues",
+                "sinus symptoms",
+                "sinus signs",
+                "sinus indicators",
+                "sinus manifestations",
+                "sinus expressions",
+                "sinus presentations",
+                "sinus appearances",
+                "sinus characteristics",
+                "sinus features",
+                "sinus traits",
+                "sinus properties",
+                "sinus attributes",
+                "sinus qualities",
+                "sinus aspects",
+                "sinus elements",
+                "sinus components",
+                "sinus parts",
+                "sinus regions",
+                "sinus areas",
+                "sinus zones",
+                "sinus sections",
+                "sinus segments",
+                "sinus divisions",
+                "sinus compartments",
+                "sinus chambers",
+                "sinus cavities",
+                "sinus spaces",
+                "sinus hollows",
+                "sinus voids",
+                "sinus gaps",
+                "sinus openings",
+                "sinus passages",
+                "sinus channels",
+                "sinus ducts",
+                "sinus tubes",
+                "sinus pipes",
+                "sinus conduits",
+                "sinus vessels",
+                "sinus canals",
+                "sinus tunnels",
+                "sinus corridors",
+                "sinus hallways",
+                "sinus pathways",
+                "sinus routes",
+                "sinus tracks",
+                "sinus trails",
+                "sinus paths",
+                "sinus ways",
+                "sinus means",
+                "sinus methods",
+                "sinus procedures",
+                "sinus processes",
+                "sinus systems",
+                "sinus mechanisms",
+                "sinus operations",
+                "sinus functions",
+                "sinus activities",
+                "sinus actions",
+                "sinus behaviors",
+                "sinus responses",
+                "sinus reactions",
+                "sinus reflexes",
+                "sinus instincts",
+                "sinus impulses",
+                "sinus drives",
+                "sinus motives",
+                "sinus incentives",
+                "sinus stimuli",
+                "sinus triggers",
+                "sinus causes",
+                "sinus reasons",
+                "sinus factors",
+                "sinus elements",
+                "sinus components",
+                "sinus parts",
+                "sinus regions",
+                "sinus areas",
+                "sinus zones",
+                "sinus sections",
+                "sinus segments",
+                "sinus divisions",
+                "sinus compartments",
+                "sinus chambers",
+                "sinus cavities",
+                "sinus spaces",
+                "sinus hollows",
+                "sinus voids",
+                "sinus gaps",
+                "sinus openings",
+                "sinus passages",
+                "sinus channels",
+                "sinus ducts",
+                "sinus tubes",
+                "sinus pipes",
+                "sinus conduits",
+                "sinus vessels",
+                "sinus canals",
+                "sinus tunnels",
+                "sinus corridors",
+                "sinus hallways",
+                "sinus pathways",
+                "sinus routes",
+                "sinus tracks",
+                "sinus trails",
+                "sinus paths",
+                "sinus ways",
+                "sinus means",
+                "sinus methods",
+                "sinus procedures",
+                "sinus processes",
+                "sinus systems",
+                "sinus mechanisms",
+                "sinus operations",
+                "sinus functions",
+                "sinus activities",
+                "sinus actions",
+                "sinus behaviors",
+                "sinus responses",
+                "sinus reactions",
+                "sinus reflexes",
+                "sinus instincts",
+                "sinus impulses",
+                "sinus drives",
+                "sinus motives",
+                "sinus incentives",
+                "sinus stimuli",
+                "sinus triggers",
+                "sinus causes",
+                "sinus reasons",
+                "sinus factors"
+            ],
+            "responses": [
+                "I understand you're having cold symptoms. Here's an effective Ayurvedic remedy: Take ½ teaspoon of Haldi powder and ½ teaspoon of pepper powder with milk, add 1 teaspoon honey, 3 times a day. This will help relieve your cold symptoms. Would you like to know more about managing cold naturally?"
+            ]
+        },
+        {
+            "tag": "cold_more_info",
+            "patterns": [
+                "yes",
+                "yes please",
+                "tell me more",
+                "more information",
+                "more details",
+                "what else",
+                "other remedies",
+                "additional tips"
+            ],
+            "responses": [
+                "Here are additional Ayurvedic tips for managing cold:\n1. Drink plenty of warm water and herbal teas\n2. Take steam inhalation with eucalyptus oil\n3. Apply eucalyptus oil on chest and back\n4. Take 1-2 teaspoons of ginger juice with honey\n5. Rest well and avoid cold foods\nWould you like to know about specific herbs that can help with cold?"
+            ]
+        },
+        {
+            "tag": "cold_herbs",
+            "patterns": [
+                "herbs for cold",
+                "which herbs",
+                "natural herbs",
+                "herbal remedies",
+                "herbal treatment",
+                "tell me about herbs"
+            ],
+            "responses": [
+                "Here are effective Ayurvedic herbs for cold:\n1. Tulsi (Holy Basil): Make tea with leaves\n2. Ginger: Take with honey\n3. Turmeric: Add to warm milk\n4. Black Pepper: Add to food or tea\n5. Cinnamon: Make tea with honey\nWould you like to know about dietary recommendations during cold?"
+            ]
+        },
+        {
+            "tag": "cold_diet",
+            "patterns": [
+                "diet during cold",
+                "what to eat",
+                "food for cold",
+                "diet recommendations",
+                "dietary tips",
+                "foods to avoid"
+            ],
+            "responses": [
+                "Here are dietary recommendations during cold:\n1. Eat warm, easily digestible foods\n2. Drink plenty of warm fluids\n3. Include soups and broths\n4. Avoid cold and raw foods\n5. Eat small, frequent meals\nWould you like to know about lifestyle changes that can help with cold?"
+            ]
+        },
+        {
+            "tag": "cough",
+            "patterns": [
+                "cough",
+                "coughing",
+                "coughed",
+                "coughs",
+                "i have cough",
+                "i'm coughing",
+                "suffering from cough",
+                "got cough",
+                "having cough",
+                "cough symptoms",
+                "my throat is itching",
+                "throat irritation",
+                "persistent cough",
+                "i have a cough",
+                "i am coughing",
+                "bad cough",
+                "severe cough",
+                "throat",
+                "throat pain",
+                "sore throat",
+                "irritated throat",
+                "throat irritation",
+                "throat is sore",
+                "throat is irritated",
+                "throat is hurting",
+                "throat is painful",
+                "throat is scratchy",
+                "throat is dry",
+                "throat is burning",
+                "throat is raw",
+                "throat is inflamed",
+                "throat is swollen",
+                "throat is red",
+                "throat is scratchy",
+                "throat is hoarse",
+                "throat is rough",
+                "throat is tight",
+                "throat is constricted",
+                "throat is blocked",
+                "throat is clogged",
+                "throat is congested",
+                "throat is stuffy",
+                "throat is phlegmy",
+                "throat is mucus",
+                "throat is slimy",
+                "throat is wet",
+                "throat is dry",
+                "throat is parched",
+                "throat is thirsty",
+                "throat is dehydrated"
+            ],
+            "responses": [
+                "I understand you're having cough. To help you better, could you tell me if you have: 1. Wet cough (with phlegm) or 2. Dry cough (without phlegm)? This will help me provide the most appropriate Ayurvedic remedy."
+            ]
+        },
+        {
+            "tag": "wet_cough",
+            "patterns": [
+                "Wet cough",
+                "With phlegm",
+                "I have phlegm",
+                "Mucus cough",
+                "Chesty cough",
+                "Productive cough",
+                "wet",
+                "1",
+                "with mucus",
+                "chesty"
+            ],
+            "responses": [
+                "For wet cough, here's an effective Ayurvedic remedy: Take 1 teaspoon honey, add 1 teaspoon of ginger juice and 1 pinch of black pepper. Take this mixture once in the morning and once before going to bed at night. This will help clear the phlegm and provide relief. Would you like to know more about managing wet cough naturally?"
+            ]
+        },
+        {
+            "tag": "dry_cough",
+            "patterns": [
+                "Dry cough",
+                "Without phlegm",
+                "No phlegm",
+                "Irritating cough",
+                "Tickly cough",
+                "dry",
+                "2",
+                "no mucus",
+                "tickly"
+            ],
+            "responses": [
+                "For dry cough, here's an Ayurvedic remedy: Mix 1 teaspoon of honey with 1 teaspoon of ghee (clarified butter). Take this mixture 2-3 times a day. You can also try drinking warm water with a pinch of turmeric and black pepper. Would you like to know more about managing dry cough naturally?"
+            ]
+        },
+        {
+            "tag": "not_well",
+            "patterns": [
+                "Not feeling well",
+                "I'm not well",
+                "Feeling sick",
+                "Not good",
+                "Feeling unwell",
+                "I feel bad",
+                "I'm sick",
+                "Feeling ill"
+            ],
+            "responses": [
+                "I'm sorry to hear you're not feeling well. Could you please tell me your symptoms so I can suggest appropriate Ayurvedic remedies? For example, are you experiencing cold, cough, fever, or any other specific symptoms?"
+            ]
+        },
+        {
+            "tag": "fever",
+            "patterns": [
+                "fever",
+                "feverish",
+                "fevered",
+                "fevers",
+                "i have fever",
+                "i'm having fever",
+                "high temperature",
+                "feeling feverish",
+                "got fever",
+                "running temperature",
+                "i have a fever",
+                "high fever",
+                "temperature",
+                "body temperature",
+                "hot",
+                "burning up",
+                "burning",
+                "burning sensation",
+                "burning feeling",
+                "burning up",
+                "burning hot",
+                "burning fever",
+                "burning temperature",
+                "burning body",
+                "burning skin",
+                "burning face",
+                "burning head",
+                "burning forehead",
+                "burning eyes",
+                "burning throat",
+                "burning chest",
+                "burning stomach",
+                "burning back",
+                "burning neck",
+                "burning shoulders",
+                "burning arms",
+                "burning legs",
+                "burning feet",
+                "burning hands",
+                "burning fingers",
+                "burning toes",
+                "burning joints",
+                "burning muscles",
+                "burning bones",
+                "burning nerves",
+                "burning blood",
+                "burning sweat",
+                "burning urine",
+                "burning stool",
+                "burning vomit",
+                "burning phlegm",
+                "burning mucus",
+                "burning saliva",
+                "burning tears",
+                "burning nose",
+                "burning ears",
+                "burning mouth",
+                "burning tongue",
+                "burning lips",
+                "burning gums",
+                "burning teeth",
+                "burning jaw",
+                "burning cheeks",
+                "burning chin",
+                "burning neck",
+                "burning throat",
+                "burning chest",
+                "burning stomach",
+                "burning back",
+                "burning neck",
+                "burning shoulders",
+                "burning arms",
+                "burning legs",
+                "burning feet",
+                "burning hands",
+                "burning fingers",
+                "burning toes",
+                "burning joints",
+                "burning muscles",
+                "burning bones",
+                "burning nerves",
+                "burning blood",
+                "burning sweat",
+                "burning urine",
+                "burning stool",
+                "burning vomit",
+                "burning phlegm",
+                "burning mucus",
+                "burning saliva",
+                "burning tears",
+                "burning nose",
+                "burning ears",
+                "burning mouth",
+                "burning tongue",
+                "burning lips",
+                "burning gums",
+                "burning teeth",
+                "burning jaw",
+                "burning cheeks",
+                "burning chin"
+            ],
+            "responses": [
+                "For fever, here's an Ayurvedic remedy: Take 1 teaspoon of ginger juice mixed with 1 teaspoon of honey. You can also try drinking tulsi (holy basil) tea with honey. Make sure to rest well and stay hydrated. Would you like to know more about managing fever naturally?"
+            ]
+        },
+        {
+            "tag": "fever_more_info",
+            "patterns": [
+                "yes",
+                "yes please",
+                "tell me more",
+                "more information",
+                "more details",
+                "what else",
+                "other remedies",
+                "additional tips"
+            ],
+            "responses": [
+                "Here are additional Ayurvedic tips for managing fever:\n1. Drink plenty of warm water and herbal teas\n2. Take rest and avoid physical exertion\n3. Apply sandalwood paste on forehead\n4. Take 1-2 teaspoons of coriander seed decoction\n5. Eat light, easily digestible foods\nWould you like to know about specific herbs that can help reduce fever?"
+            ]
+        },
+        {
+            "tag": "fever_herbs",
+            "patterns": [
+                "herbs for fever",
+                "which herbs",
+                "natural herbs",
+                "herbal remedies",
+                "herbal treatment",
+                "tell me about herbs"
+            ],
+            "responses": [
+                "Here are effective Ayurvedic herbs for fever:\n1. Tulsi (Holy Basil): Make tea with leaves\n2. Ginger: Take with honey\n3. Coriander: Make decoction with seeds\n4. Neem: Take leaf extract\n5. Turmeric: Add to warm milk\nWould you like to know about dietary recommendations during fever?"
+            ]
+        },
+        {
+            "tag": "fever_diet",
+            "patterns": [
+                "diet during fever",
+                "what to eat",
+                "food for fever",
+                "diet recommendations",
+                "dietary tips",
+                "foods to avoid"
+            ],
+            "responses": [
+                "Here are dietary recommendations during fever:\n1. Eat light, easily digestible foods\n2. Drink plenty of warm fluids\n3. Include soups and broths\n4. Avoid heavy, oily foods\n5. Eat small, frequent meals\nWould you like to know about lifestyle changes that can help with fever?"
+            ]
+        },
+        {
+            "tag": "shivering",
+            "patterns": [
+                "I am shivering",
+                "shivering"
+            ],
+            "responses": [
+                "This is a symptom of fever, Take tea/decoction of about 20 Tulsi leaves 3 times a day till fever subsides. It helps you in fever/shivering."
+            ]
+        },
+        {
+            "tag": "Headache",
+            "patterns": [
+                "i have a headache",
+                "i have headache",
+                "headache"
+            ],
+            "responses": [
+                "what kind of headache do you have : 1. Migrane headache - Pain feels like a tight band around your head. 2. Cluster headache - Pain strikes in a group 3. Tension Headache - Ocassional"
+            ]
+        },
+        {
+            "tag": "Migrane Headache",
+            "patterns": [
+                "i have a migrane headache",
+                "migrane",
+                "1"
+            ],
+            "responses": [
+                "Migraine Headache - You can drink ginger and basil (tulsi) leaves tea throughout the day when you have pain and don't forget to have it right at the onset of pain."
+            ]
+        },
+        {
+            "tag": "Cluster Headache",
+            "patterns": [
+                "i have a cluster headache",
+                "cluster",
+                "2"
+            ],
+            "responses": [
+                "Cluster Headache - Ginger is known to help reduce the inflammation of the blood vessels in the head, providing relief. One can consume ginger to prevent headaches. Mix equal parts of ginger juice and lemon juice and have it daily twice."
+            ]
+        },
+        {
+            "tag": "Tension Headache",
+            "patterns": [
+                "i have a tension headache",
+                "tension",
+                "3"
+            ],
+            "responses": [
+                "Tension Headache - Apply heat to relieve tense neck and shoulder muscles. Use a heating pad set on low, a hot water bottle, a hot shower or bath, a warm compress, or a hot towel. Or apply ice or a cool washcloth to the forehead. Massage also can relieve muscle tension — and sometimes headache pain."
+            ]
+        },
+        {
+            "tag": "acidity",
+            "patterns": [
+                "i have acidity",
+                "i am suffering from acidity",
+                "acidity",
+                "heart burn"
+            ],
+            "responses": [
+                "Powder of Sonth (dry ginger), Soonf, Pudina dry and equal quantity, boil 1 teaspoon of this mix powder in a cup of water, take 3 times after food to get relief from Heart burn / Acidity."
+            ]
+        },
+        {
+            "tag": "indigestion",
+            "patterns": [
+                "i have indigestion",
+                "i am suffering from indigestion",
+                "indigestion"
+            ],
+            "responses": [
+                "Take 1 teaspoon of fresh ginger juice and 1 teaspoon of lemon juice add a pinch of Black salt and Zeera ½ teaspoon powder take 3 times after food. It helps you in indigestion."
+            ]
+        },
+        {
+            "tag": "constipation",
+            "patterns": [
+                "i have constipation",
+                "i am suffering from constipation",
+                "constipation"
+            ],
+            "responses": [
+                "Cut one medium size onion in pieces, fry in 1 teaspoon of ghee till it becomes soft eat the whole quantity with a glass of hot water at bed time for 3-5 days. It helps you in constipation."
+            ]
+        },
+        {
+            "tag": "cuts and wounds",
+            "patterns": [
+                "i have cuts",
+                "i have wounds",
+                "cuts",
+                "wounds"
+            ],
+            "responses": [
+                "Crush the Lajwanti plant (Touch me not) apply over the wound Cut Aloe vera leaf into two lengthwise and sprinkle turmeric powder on it place on the wound and bandage."
+            ]
+        },
+        {
+            "tag": "pain in joints and legs",
+            "patterns": [
+                "i have pain in joints",
+                "i have pain in legs",
+                "joints pain",
+                "legs pain"
+            ],
+            "responses": [
+                "Prepare oil by boiling 100 gms of Neem leaves and Pudina leaves in mustard oil add 1 teaspoon of salt, boil on low flame for ½ hr, apply on affected area and massage till oil is absorbed 2 times in a day till pain is relieved."
+            ]
+        },
+        {
+            "tag": "diabetes",
+            "patterns": [
+                "i have diabetes",
+                "i am suffering from diabetes",
+                "diabetes"
+            ],
+            "responses": [
+                "Powder Methi, Kalonji and Tukhme Kasni (Chicory seeds Cichorium intybus) equal quantity, take ½ teaspoon daily before food 3 times. Eat plenty of vegetables like Guar beans, Knolkhol, Karela, Bhindi. It helps you in diabetes."
+            ]
+        },
+        {
+            "tag": "abdominal pain",
+            "patterns": [
+                "i have stomach pain",
+                "i have abdominal pain",
+                "i am suffering from stomach pain",
+                "stomach pain",
+                "abdominal pain"
+            ],
+            "responses": [
+                "1 teaspoon Adrak/Sonth juice in a glass of butter milk with lemon & salt. It helps you in stomach/abdominal pain."
+            ]
+        },
+        {
+            "tag": "loss of appetite",
+            "patterns": [
+                "loss of appetite"
+            ],
+            "responses": [
+                "1 teaspoon Ajvain powder with warm water 1/2 hour before meals."
+            ]
+        },
+        {
+            "tag": "vomiting",
+            "patterns": [
+                "i have vomiting",
+                "vomiting"
+            ],
+            "responses": [
+                "1-2 teaspoon Dalchini powder with honey thrice a day in divided doses. It helps you in vomiting."
+            ]
+        },
+        {
+            "tag": "skin_problems",
+            "patterns": [
+                "I have skin problems",
+                "skin problem",
+                "skin issues",
+                "skin condition",
+                "skin",
+                "problems with skin",
+                "skin disease",
+                "skin disorder"
+            ],
+            "responses": [
+                "I understand you're having skin problems. Could you please specify what kind of skin issue you're experiencing? For example: acne, rashes, allergies, or other skin conditions? This will help me provide the most appropriate Ayurvedic remedy."
+            ]
+        },
+        {
+            "tag": "acne",
+            "patterns": [
+                "acne",
+                "pimple",
+                "pimples",
+                "zit",
+                "zits",
+                "breakout",
+                "breakouts",
+                "i have acne",
+                "i'm having acne",
+                "suffering from acne",
+                "got acne",
+                "having acne",
+                "acne symptoms",
+                "i have a pimple",
+                "i have pimples",
+                "i have zits",
+                "i have breakouts",
+                "i'm breaking out",
+                "my face is breaking out",
+                "my skin is breaking out",
+                "my face has pimples",
+                "my skin has pimples",
+                "my face has zits",
+                "my skin has zits",
+                "my face has acne",
+                "my skin has acne",
+                "my face has breakouts",
+                "my skin has breakouts",
+                "my face is breaking out",
+                "my skin is breaking out",
+                "my face is breaking out in pimples",
+                "my skin is breaking out in pimples",
+                "my face is breaking out in zits",
+                "my skin is breaking out in zits",
+                "my face is breaking out in acne",
+                "my skin is breaking out in acne",
+                "my face is breaking out in breakouts",
+                "my skin is breaking out in breakouts",
+                "my face is breaking out in spots",
+                "my skin is breaking out in spots",
+                "my face is breaking out in blemishes",
+                "my skin is breaking out in blemishes",
+                "my face is breaking out in rashes",
+                "my skin is breaking out in rashes",
+                "my face is breaking out in hives",
+                "my skin is breaking out in hives",
+                "my face is breaking out in welts",
+                "my skin is breaking out in welts",
+                "my face is breaking out in bumps",
+                "my skin is breaking out in bumps",
+                "my face is breaking out in lumps",
+                "my skin is breaking out in lumps",
+                "my face is breaking out in swellings",
+                "my skin is breaking out in swellings",
+                "my face is breaking out in inflammations",
+                "my skin is breaking out in inflammations",
+                "my face is breaking out in irritations",
+                "my skin is breaking out in irritations",
+                "my face is breaking out in allergies",
+                "my skin is breaking out in allergies",
+                "my face is breaking out in reactions",
+                "my skin is breaking out in reactions",
+                "my face is breaking out in sensitivities",
+                "my skin is breaking out in sensitivities",
+                "my face is breaking out in intolerances",
+                "my skin is breaking out in intolerances",
+                "my face is breaking out in sensitivities",
+                "my skin is breaking out in sensitivities",
+                "my face is breaking out in intolerances",
+                "my skin is breaking out in intolerances",
+                "my face is breaking out in allergies",
+                "my skin is breaking out in allergies",
+                "my face is breaking out in reactions",
+                "my skin is breaking out in reactions",
+                "my face is breaking out in sensitivities",
+                "my skin is breaking out in sensitivities",
+                "my face is breaking out in intolerances",
+                "my skin is breaking out in intolerances"
+            ],
+            "responses": [
+                "For acne, here's an effective Ayurvedic remedy: Mix 1 teaspoon of turmeric powder with 2 teaspoons of honey to make a paste. Apply this mask on your face for 15-20 minutes, then wash off with warm water. Do this 2-3 times a week. Also, drink a glass of warm water with 1 teaspoon of honey and a pinch of turmeric every morning. Would you like to know more about managing acne naturally?"
+            ]
+        },
+        {
+            "tag": "acne_more_info",
+            "patterns": [
+                "yes",
+                "yes please",
+                "tell me more",
+                "more information",
+                "more details",
+                "what else",
+                "other remedies",
+                "additional tips"
+            ],
+            "responses": [
+                "Here are additional Ayurvedic tips for managing acne:\n1. Drink plenty of water (8-10 glasses daily)\n2. Avoid oily and spicy foods\n3. Apply a paste of sandalwood and rose water\n4. Take 1 teaspoon of neem powder with warm water in the morning\n5. Practice stress-reducing activities like yoga\nWould you like to know about dietary recommendations for acne?"
+            ]
+        },
+        {
+            "tag": "acne_diet",
+            "patterns": [
+                "diet recommendations",
+                "what to eat",
+                "food for acne",
+                "diet for acne",
+                "acne diet",
+                "foods to avoid",
+                "dietary tips"
+            ],
+            "responses": [
+                "Here are dietary recommendations for managing acne:\n1. Include fresh fruits and vegetables in your diet\n2. Drink herbal teas (especially green tea)\n3. Avoid dairy products and processed foods\n4. Include turmeric in your meals\n5. Eat foods rich in zinc and vitamin A\nWould you like to know about lifestyle changes that can help with acne?"
+            ]
+        },
+        {
+            "tag": "acne_lifestyle",
+            "patterns": [
+                "lifestyle changes",
+                "daily routine",
+                "habits",
+                "lifestyle tips",
+                "daily habits",
+                "routine for acne"
+            ],
+            "responses": [
+                "Here are lifestyle changes that can help manage acne:\n1. Get 7-8 hours of sleep daily\n2. Exercise regularly\n3. Keep your face clean and avoid touching it frequently\n4. Use natural face wash with neem or turmeric\n5. Avoid stress and practice meditation\nWould you like to know about specific Ayurvedic herbs that can help with acne?"
+            ]
+        },
+        {
+            "tag": "acne_herbs",
+            "patterns": [
+                "herbs for acne",
+                "ayurvedic herbs",
+                "natural herbs",
+                "herbal remedies",
+                "which herbs",
+                "herbal treatment"
+            ],
+            "responses": [
+                "Here are effective Ayurvedic herbs for acne:\n1. Neem: Take 1-2 neem leaves daily\n2. Turmeric: Add to food or make a paste\n3. Aloe Vera: Apply gel directly on acne\n4. Tulsi (Holy Basil): Chew 2-3 leaves daily\n5. Manjistha: Take 1/4 teaspoon with warm water\nWould you like to know about specific face masks for acne?"
+            ]
+        },
+        {
+            "tag": "acne_face_masks",
+            "patterns": [
+                "face masks",
+                "masks for acne",
+                "natural masks",
+                "homemade masks",
+                "facial masks",
+                "mask recipes"
+            ],
+            "responses": [
+                "Here are effective Ayurvedic face masks for acne:\n1. Multani Mitti (Fuller's Earth) with rose water\n2. Sandalwood powder with milk\n3. Neem powder with honey\n4. Turmeric with yogurt\n5. Aloe vera with honey\nWould you like to know about specific yoga poses that can help with acne?"
+            ]
+        },
+        {
+            "tag": "acne_yoga",
+            "patterns": [
+                "yoga for acne",
+                "yoga poses",
+                "yoga exercises",
+                "yoga routine",
+                "yoga tips",
+                "yoga practice"
+            ],
+            "responses": [
+                "Here are beneficial yoga poses for managing acne:\n1. Sarvangasana (Shoulder Stand)\n2. Halasana (Plow Pose)\n3. Bhujangasana (Cobra Pose)\n4. Kapalbhati Pranayama\n5. Anulom Vilom Pranayama\nPractice these poses daily for best results. Would you like to know about specific meditation techniques that can help with acne?"
+            ]
+        },
+        {
+            "tag": "acne_meditation",
+            "patterns": [
+                "meditation for acne",
+                "meditation techniques",
+                "stress relief",
+                "meditation tips",
+                "mindfulness",
+                "relaxation techniques"
+            ],
+            "responses": [
+                "Here are meditation techniques that can help manage acne:\n1. Deep breathing exercises (5-10 minutes daily)\n2. Mindfulness meditation\n3. Body scan meditation\n4. Guided visualization\n5. Mantra meditation\nRemember, stress management is crucial for healthy skin. Would you like to know about specific Ayurvedic oils for acne?"
+            ]
+        },
+        {
+            "tag": "acne_oils",
+            "patterns": [
+                "oils for acne",
+                "ayurvedic oils",
+                "essential oils",
+                "face oils",
+                "oil treatment",
+                "which oils"
+            ],
+            "responses": [
+                "Here are beneficial Ayurvedic oils for acne:\n1. Neem oil: Apply diluted with coconut oil\n2. Tea tree oil: Mix with carrier oil\n3. Jojoba oil: Use as a moisturizer\n4. Rosehip oil: Apply at night\n5. Lavender oil: Mix with carrier oil\nRemember to do a patch test before using any oil. Would you like to know about specific Ayurvedic supplements for acne?"
+            ]
+        },
+        {
+            "tag": "skin_allergy",
+            "patterns": [
+                "I have skin allergy",
+                "skin allergy",
+                "skin rashes",
+                "allergic reaction on skin",
+                "skin irritation",
+                "allergic skin",
+                "skin sensitivity"
+            ],
+            "responses": [
+                "For skin allergies, here's an Ayurvedic remedy: Take 1-2 teaspoons of turmeric powder with jaggery twice a day. You can also apply a paste of neem leaves and turmeric on the affected area. Would you like to know more about managing skin allergies naturally?"
+            ]
+        },
+        {
+            "tag": "skin_disease",
+            "patterns": [
+                "I have skin disease",
+                "skin disease",
+                "chronic skin condition",
+                "severe skin problem",
+                "serious skin issue"
+            ],
+            "responses": [
+                "For skin diseases, here's an Ayurvedic remedy: Take 10 ml of neem leaves juice with honey twice a day. You can also apply neem oil on the affected area. Would you like to know more about managing skin diseases naturally?"
+            ]
+        },
+        {
+            "tag": "toothache",
+            "patterns": [
+                "i have toothache",
+                "toothache"
+            ],
+            "responses": [
+                "Keep fried Hing in carious tooth. It helps you in toothache."
+            ]
+        },
+        {
+            "tag": "kidney stone",
+            "patterns": [
+                "i have kidney stone",
+                "kidney stone"
+            ],
+            "responses": [
+                "Drink coconut water twice daily."
+            ]
+        },
+        {
+            "tag": "hair fall",
+            "patterns": [
+                "i am suffering from hair fall",
+                "i have hair fall",
+                "hair fall"
+            ],
+            "responses": [
+                "Coconut oil processed with Methi powder and Amla powder should be used regularly."
+            ]
+        },
+        {
+            "tag": "dizzy",
+            "patterns": [
+                "I am feeling dizzy",
+                "dizzy"
+            ],
+            "responses": [
+                "This might be because you are tired, you should take some rest."
+            ]
+        },
+        {
+            "tag": "take care",
+            "patterns": [
+                "yes, i feel good",
+                "yes",
+                "yup",
+                "yess"
+            ],
+            "responses": [
+                "Hope you get well soon, Take care!"
+            ]
+        }
+    ]
+}
