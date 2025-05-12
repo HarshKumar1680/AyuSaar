@@ -1,0 +1,110 @@
+[
+    {
+        "user_message": "hello",
+        "response": "Hello! I'm here to provide Ayurvedic remedies. How can I assist you?",
+        "response_time": 0.0009982585906982422,
+        "confidence": 1.0
+    },
+    {
+        "user_message": "suffering from fever.",
+        "response": "For fever, here's an Ayurvedic remedy: Take 1 teaspoon of ginger juice mixed with 1 teaspoon of honey. You can also try drinking tulsi (holy basil) tea with honey. Make sure to rest well and stay hydrated. Would you like to know more about managing fever naturally?",
+        "response_time": 0.0009989738464355469,
+        "confidence": 0.9
+    },
+    {
+        "rating": "up",
+        "timestamp": 1746986747.371413
+    },
+    {
+        "rating": "up",
+        "timestamp": 1746986748.8794997
+    },
+    {
+        "rating": "up",
+        "timestamp": 1746986749.8822405
+    },
+    {
+        "rating": "up",
+        "timestamp": 1746986750.535289
+    },
+    {
+        "rating": "up",
+        "timestamp": 1746986750.6902046
+    },
+    {
+        "rating": "down",
+        "timestamp": 1746986753.4139304
+    },
+    {
+        "rating": "up",
+        "timestamp": 1746986754.113717
+    },
+    {
+        "rating": "up",
+        "timestamp": 1746986754.318202
+    },
+    {
+        "rating": "up",
+        "timestamp": 1746986754.4790373
+    },
+    {
+        "user_message": "hello",
+        "response": "Hi! I'm QSAARBOT. What health concerns would you like to discuss?",
+        "response_time": 0.001001119613647461,
+        "confidence": 1.0
+    },
+    {
+        "user_message": "hello",
+        "response": "Hello! I'm here to provide Ayurvedic remedies. How can I assist you?",
+        "response_time": 0.004879951477050781,
+        "confidence": 1.0
+    },
+    {
+        "user_message": "i am suffering from aids",
+        "response": "Hello! I'm QSAARBOT, your Ayurvedic wellness assistant. How can I help you today?",
+        "response_time": 0.5493483543395996,
+        "confidence": 0.9637813
+    },
+    {
+        "user_message": "fever",
+        "response": "For fever, here's an Ayurvedic remedy: Take 1 teaspoon of ginger juice mixed with 1 teaspoon of honey. You can also try drinking tulsi (holy basil) tea with honey. Make sure to rest well and stay hydrated. Would you like to know more about managing fever naturally?",
+        "response_time": 0.0009944438934326172,
+        "confidence": 1.0
+    },
+    {
+        "user_message": "i have cough",
+        "response": "I understand you're having cough. To help you better, could you tell me if you have: 1. Wet cough (with phlegm) or 2. Dry cough (without phlegm)? This will help me provide the most appropriate Ayurvedic remedy.",
+        "response_time": 0.002006053924560547,
+        "confidence": 0.9
+    },
+    {
+        "user_message": "dry cough",
+        "response": "I understand you're having cough. To help you better, could you tell me if you have: 1. Wet cough (with phlegm) or 2. Dry cough (without phlegm)? This will help me provide the most appropriate Ayurvedic remedy.",
+        "response_time": 0.0009951591491699219,
+        "confidence": 0.9
+    },
+    {
+        "user_message": "dry",
+        "response": "For dry cough, here's an Ayurvedic remedy: Mix 1 teaspoon of honey with 1 teaspoon of ghee (clarified butter). Take this mixture 2-3 times a day. You can also try drinking warm water with a pinch of turmeric and black pepper. Would you like to know more about managing dry cough naturally?",
+        "response_time": 0.001001596450805664,
+        "confidence": 1.0
+    },
+    {
+        "user_message": "i have acne",
+        "response": "For acne, here's an effective Ayurvedic remedy: Mix 1 teaspoon of turmeric powder with 2 teaspoons of honey to make a paste. Apply this mask on your face for 15-20 minutes, then wash off with warm water. Do this 2-3 times a week. Also, drink a glass of warm water with 1 teaspoon of honey and a pinch of turmeric every morning. Would you like to know more about managing acne naturally?",
+        "response_time": 0.0010020732879638672,
+        "confidence": 0.9
+    },
+    {
+        "user_message": "i have headache.",
+        "response": "what kind of headache do you have : 1. Migrane headache - Pain feels like a tight band around your head. 2. Cluster headache - Pain strikes in a group 3. Tension Headache - Ocassional",
+        "response_time": 0.0010008811950683594,
+        "confidence": 0.9
+    },
+    {
+        "user_message": "migrane",
+        "response": "Migraine Headache - You can drink ginger and basil (tulsi) leaves tea throughout the day when you have pain and don't forget to have it right at the onset of pain.",
+        "response_time": 0.0009989738464355469,
+        "confidence": 1.0
+    }
+]
